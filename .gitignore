@@ -1,0 +1,25 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environment folder
+*.venv/
+*/venv/
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+
+# If you use pipenv, poetry, or other envs:
+Pipfile.lock
+poetry.lock
+
+# Environment / secret files
+.env
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Log
+*.log
