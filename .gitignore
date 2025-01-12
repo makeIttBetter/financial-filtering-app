@@ -5,6 +5,7 @@ __pycache__/
 # Virtual environment folder
 *.venv/
 */venv/
+venv/
 
 # IntelliJ IDEA project files
 .idea/
@@ -15,7 +16,7 @@ Pipfile.lock
 poetry.lock
 
 # Environment / secret files
-.env
+*.env.*
 
 # Operating system files
 .DS_Store
@@ -23,3 +24,43 @@ Thumbs.db
 
 # Log
 *.log
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+package-lock.json
+pnpm-lock.yaml
+
+# misc
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+
