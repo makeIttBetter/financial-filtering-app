@@ -16,6 +16,7 @@ Pipfile.lock
 poetry.lock
 
 # Environment / secret files
+.env
 *.env.*
 
 # Operating system files
