@@ -47,5 +47,5 @@ docker-compose down
 
 ## Additional Notes
 
-- Make sure to update your `.env` files (e.g., in the backend) with your actual API key for Financial Modeling Prep.
+- Make sure to update your `/root/.env` file with `FMP_API_KEY=your_api_key_here` property and `/root/frontend/.env.local` with `NEXT_PUBLIC_API_URL=/api`.
 - If you want to develop locally (without Docker), see the **backend** and **frontend** `README.md` files for instructions.
