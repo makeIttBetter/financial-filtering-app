@@ -24,7 +24,7 @@ root
 - **frontend/**: Contains the Next.js + React application that displays and filters the data.
 - **docker-compose.yml**: Spins up everything at once:
     - **Backend** accessible internally on port `8000`.
-    - **Frontend** served by Nginx on port `8080`, with `/api` requests proxied to the backend.
+    - **Frontend** served by Nginx on port `80`, with `/api` requests proxied to the backend.
 
 ## How to Start Everything with Docker Compose
 
@@ -34,7 +34,7 @@ root
    ```bash
    docker-compose up --build
    ```
-4. Once the containers are running, open your browser and go to [http://localhost:8080](http://localhost:8080).
+4. Once the containers are running, open your browser and go to [http://localhost:80](http://localhost:80) for local env OR [http://54.175.126.9/](http://54.175.126.9/) as a link to public instance hosted on aws.
     - The **frontend** will be served at the root (`/`).
     - API requests (like `/api/...`) will be automatically sent to the **backend**.
 
